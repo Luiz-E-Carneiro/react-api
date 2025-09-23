@@ -6,7 +6,7 @@ export default function ProductCard({ product }) {
         <div className="relative m-3 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border justify-between border-gray-100 bg-white shadow-md">
             <div className="relative mx-3 mt-3 flex h-40 overflow-hidden rounded-xl justify-center" href="#">
                 <img className="object-cover" src={image} alt="product image" />
-                <span className="absolute top-0 left-0 m-2 rounded-full bg-black px-2 text-center text-sm font-medium text-white">39% OFF</span>
+                <span className="absolute top-0 left-0 m-2 rounded-full bg-[var(--detail-color)] px-2 text-center text-sm font-medium text-white">39% OFF</span>
             </div>
             <div className="mt-3 px-2 pb-1">
                 <div href="#">

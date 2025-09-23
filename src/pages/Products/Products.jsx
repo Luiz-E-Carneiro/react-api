@@ -33,8 +33,8 @@ export default function Products() {
                 <p>Loading...</p>
             ) : (
                 Object.keys(productsByCategory).map(category => (
-                    <div key={category}>
-                        <h2>{category}</h2>
+                    <div key={category} className='capitalize mb-3'>
+                        <h2 className="text-[var(--secondary-color)] font-bold text-3xl">{category}</h2>
                         <div className='flex flex-wrap'>
                             {productsByCategory[category].map(product => (
                                 <Link key={product.id} to={`/products/${product.id}`}>

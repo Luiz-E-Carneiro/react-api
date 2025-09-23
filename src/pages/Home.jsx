@@ -1,6 +1,5 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, use } from "react";
 import axios from "axios";
-import ProductCard from "./Products/components/ProductCard";
 import { Link } from "react-router-dom";
 
 export default function Home() {

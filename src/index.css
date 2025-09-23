@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
+:root{
+  --secondary-color: #457b9d;
+  --primary-color: #a8dadc;
+  --bg-color: #f1faee;
+  --accent-color: #1d3557;
+  --detail-color: #e63946;
+}
+
+body { 
+  background-color: var(--bg-color);
+}
+
+
 .img-magnifier-container {
   position: relative;
 }
